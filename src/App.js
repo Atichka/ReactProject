@@ -16,6 +16,7 @@ const App = () => {
         <Header />
         <Navbar />
         <div className='app-wrapper-content'>
+          {/* Поиск в url значение */}
           <Route path='/dialogs' component={Dialogs}/>
           <Route path='/profile' component={Profile}/>
           <Route path='/news' component={News}/>
