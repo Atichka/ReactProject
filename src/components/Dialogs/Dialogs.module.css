@@ -12,8 +12,14 @@
     color: gold;
 }
 
-.dialog {
+.dialogs .dialog {
+  display: flex;
+}
 
+.dialogs img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
 }
 
 .messages {
@@ -23,3 +29,25 @@
 .messages .message {
 
 }
+
+.messages .alignright{
+	color:white;
+  background:#0B93F6;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.messages .alignleft{
+	background:#E5E5EA;
+  color:black;
+}
+
+  p {
+    max-width: 255px;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    line-height: 24px;
+    position:relative;
+    padding:10px 20px;
+    border-radius:25px;
+  }
